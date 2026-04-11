@@ -3,8 +3,12 @@
 
 目录结构
 ```
- ├── housing/
-   ├── housing.csv  # 房屋数据集
-   ├── housing.py  # 房屋数据集处理脚本
-   ├── housing.ipynb  # 房屋数据集处理Notebook
+├── Introduction-to-Macheine-learning/
+   ├── housing/ #房价预测模型
+       ├── housing.csv  # 数据集
+       ├── housing.py   
+       ├── housing.ipynb  # jupyter 直接看代码执行结果
+    ├── image/ # 图片分类模型
+       ├── image.py   
+       ├── image.ipynb
 ```
