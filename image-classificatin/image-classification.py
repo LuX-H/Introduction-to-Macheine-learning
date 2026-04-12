@@ -1,3 +1,4 @@
+# 运行1m21s
 import os
 import pickle
 
@@ -10,8 +11,8 @@ from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 
 
-# prepare data
-input_dir = '/home/phillip/Desktop/todays_tutorial/19_parking_car_counter/code/clf-data'
+# 准备数据
+input_dir = 'clf-data'
 categories = ['empty', 'not_empty']
 
 data = []
@@ -27,10 +28,10 @@ for category_idx, category in enumerate(categories):
 data = np.asarray(data)
 labels = np.asarray(labels)
 
-# train / test split
+# 训练/测试
 x_train, x_test, y_train, y_test = train_test_split(data, labels, test_size=0.2, shuffle=True, stratify=labels)
 
-# train classifier
+# 分类器
 classifier = SVC()
 
 parameters = [{'gamma': [0.01, 0.001, 0.0001], 'C': [1, 10, 100, 1000]}]

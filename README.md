@@ -9,6 +9,7 @@
        ├── housing.py   # 模型代码
        ├── housing.ipynb  # jupyter notebook
     ├── image/ # 图片分类模型
-       ├── image.py   
-       ├── image.ipynb
+       ├── image-classification.ipynb   
+       ├── image-classification.py
+       ├── model.p # 模型
 ```
